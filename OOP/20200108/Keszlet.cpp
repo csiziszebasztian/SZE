@@ -2,13 +2,6 @@
 
 void Keszlet::addTermek(Termek* ter, int pcs)
 {
-
-
-	/*auto t = keszlet.find(ter);
-	if (*ter == *((*t).first)) {
-		(*t).second += pcs;
-	}*/
-
 	bool in=false;
 	for (auto& it : keszlet) {
 		if (*ter == *it.first) {
